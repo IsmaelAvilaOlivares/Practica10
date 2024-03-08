@@ -1,0 +1,104 @@
+.body{
+        /* indicamos que le color de fondo de la pantalla sea color negro */
+        background-color: black; 
+}
+.triangulo{ 
+    width: 0px; /*Establece el ancho del elemento*/
+    height: 0px;/* Establece la altura del elemento */
+    border: 85px solid transparent; /*Define un borde alrededor del elemento */
+    border-top: 0; /*Elimina el borde superior del elemento*/
+    border-bottom: 65px solid rgb(98, 90, 177); /*Establece un borde en la parte inferior del elemento*/
+    margin-left: auto; /*Establece el margen izquierdo del elemento*/
+    margin-right: auto; /*Establece el margen derecho del elemento*/
+    display: block;  /*Establece el tipo de visualización del elemento*/
+}
+.triangulo1{
+     width: 0px;/*Establece el ancho del elemento*/
+    height: 0px;/* Establece la altura del elemento */
+    border: 100px solid transparent; /*establece un borde sólido de ancho 
+    El borde es transparente, lo que significa que no será visible.*/
+    border-top: 0; /*elimina cualquier borde en la parte superior del triángulo.*/
+    border-bottom: 100px solid rgb(57, 44, 173); /*establece un borde sólido de*/
+    /*100 píxeles de ancho en la parte inferior del elemento*/
+    transform: rotate(-90deg);/* aplica una transformación de rotación al elemento */
+    margin-left: 416px; /*Establece un margen a la izquierda del elemento*/
+    margin-right: auto; /*Establece el margen derecho del elemento*/
+    margin-top: -200px; /*se use para posicionar el triángulo en una ubicación específica*/
+    display: block;  /*ocupará todo el ancho disponible en su contenedor*/
+}
+.triangulo2{
+    width: 0px; /*Establece el ancho del elemento*/
+   height: 0px; /*Establece la altura del elemento */
+   border: 99px solid transparent;  /*Define un borde para el elemento con un color transparente 
+   esto crea los lados del triangulo*/
+   border-top: 0;/* Establece el borde superior del triángulo */
+   border-bottom: 99px solid rgb(57, 44, 173);/* borde inferior del triángulo*/
+   transform: rotate(90deg);/* una rotación de 90 grados al elemento*/
+   margin-left: 687px;/* Establece el margen izquierdo del elemento*/
+   margin-right: auto;/* Establece el margen derecho del elemento*/
+   margin-top: -95px;/* controla la posición vertical del triángulo desplegandolo hacia arriba*/
+   display: block; /*  ocupará todo el ancho disponible */
+}
+.coete{
+    width: 165px; /*  Establece el ancho del elemento */
+    height: 300px;  /*  Establece la altura del elemento */
+    background-color: rgb(70, 59, 168);/*    Establece el color de fondo del elemento  */
+    border-style: solid; /*   Establece el estilo del borde del elemento */
+    margin-bottom: 10px;  /*  Agrega un margen inferior */
+    display: block; /*  Define el elemento como un bloque ocupara todo el ancho */
+    margin-left: auto; /*   Establece el margen izquierdo del elemento automáticamente */
+    margin-right: auto; /*  Establece el margen derecho */
+}
+.cuadro{
+
+    width: 20px;/*  Establece el ancho del elemento */
+    height: 30px;/*  Establece la altura del elemento */
+    background-color: rgb(70, 59, 168); /*    Establece el color de fondo del elemento  */
+    border-style: solid; /*establece el estilo del borde de los elementos */
+    margin-bottom: 10px; /*  Agrega un margen inferior */
+    display: block; /*  Define el elemento como un bloque ocupara todo el ancho */
+    margin-top: 12px; /* controla la posición vertical del triángulo*/
+    margin-left: 590px;/* establecer el margen izquierdo de un elemento. */
+    margin-right: auto;/*  Establece el margen derecho */
+
+}
+.cuadro2{
+
+    width: 20px;/*  Establece el ancho del elemento */
+    height: 30px;/*  Establece la altura del elemento */
+    background-color: rgb(70, 59, 168); /*    Establece el color de fondo del elemento  */
+    border-style: solid; /*establece el estilo del borde de los elementos */
+    margin-bottom: 10px; /*  Agrega un margen inferior */
+    display: block;  /*  Define el elemento como un bloque ocupara todo el ancho */
+    margin-top: -47px; /* controla la posición vertical del triángulo desplegandolo hacia arriba*/
+    margin-left: 700px;/* establecer el margen izquierdo de un elemento. */
+    margin-right: auto;/*  Establece el margen derecho */
+
+}
+.triangulo3{
+    width: 0px;/*  Establece el ancho del elemento */
+    height: 0px;/*  Establece la altura del elemento */
+    border: 13px solid transparent; /*Define un borde para el elemento con un color transparente */
+    border-top: 0;/* controla la posición vertical del triángulo desplegandolo hacia arriba*/
+    border-bottom: 22px solid rgb(228, 6, 6);/*establece un borde sólido de*/
+    /*22 píxeles de ancho en la parte inferior del elemento*/
+    transform: rotate(-180deg);/* aplica una transformación de rotación al elemento */
+    margin-left: 590px; /*Establece un margen a la izquierda del elemento*/
+    margin-right: auto; /*Establece el margen derecho del elemento*/
+    margin-top: -45px; /* controla la posición vertical del triángulo desplegandolo hacia arriba*/
+    display: block;  /*ocupará todo el ancho disponible en su contenedor*/
+}
+.triangulo4{
+    width: 0px;/*  Establece el ancho del elemento */
+    height: 0px; /*  Establece la altura del elemento */
+    border: 13px solid transparent;/*Define un borde para el elemento con un color transparente */
+    border-top: 0;     /* controla la posición vertical del triángulo desplegandolo hacia arriba*/
+    border-bottom: 22px solid rgb(228, 6, 6);/*establece un borde sólido de*/
+    /*22 píxeles de ancho en la parte inferior del elemento*/
+    transform: rotate(-180deg);/* aplica una transformación de rotación al elemento */
+    margin-left: 700px; /*Establece un margen a la izquierda del elemento*/
+    margin-right: auto; /*Establece el margen derecho del elemento*/
+    margin-top: -23px; /* controla la posición vertical del triángulo desplegandolo hacia arriba*/
+    display: block;  /*ocupará todo el ancho disponible en su contenedor*/
+
+}
